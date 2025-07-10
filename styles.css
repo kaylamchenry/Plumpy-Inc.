@@ -1,0 +1,109 @@
+/* Landing Page CSS */
+body {
+    font-family: 'Avenir', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Optional: background color */
+}
+
+/* Background video CSS */
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    backdrop-filter: blur(10px); /* Increase blur effect */
+}
+
+/* Centering logo */
+#logo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure logo is centered vertically */
+    margin-bottom: 20px;
+}
+
+#logo-login img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 350px;
+    padding-top: 50px; /* Adjust padding as needed */
+}
+
+/* Centering login content */
+#login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background: linear-gradient(3deg, #EACDC2 12%, #EFF7FF 62%, rgba(191,191,255,0.3) 79%);
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Italicize h5 */
+#login-content h5 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+/* Styling input fields */
+#login-content input[type="text"],
+#login-content input[type="password"] {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling login button */
+.login-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on login button */
+.loginButton:hover {
+    background-color: #f1eff5;
+}
+
+/* Centering the login form */
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landing-form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*username and password fields*/
+.loginUsername {
+    padding-bottom: 20px;
+    padding: 50px;
+}
