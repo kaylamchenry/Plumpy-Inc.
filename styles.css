@@ -55,8 +55,9 @@ video {
 
 /* Italicize h5 */
 #login-content h5 {
+    font-size: 14px;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Styling input fields */
@@ -75,8 +76,9 @@ video {
     display: block;
     width: 100%;
     padding: 10px;
+    padding-top:1;
     padding-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -99,7 +101,7 @@ video {
 
 #landing-form {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 /*username and password fields*/
